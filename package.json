@@ -1,0 +1,15 @@
+{
+  "name": "xml2json-script",
+  "version": "1.0.0",
+  "description": "xml to json converter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node xmlparser.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Higgins Avila",
+  "license": "MIT",
+  "dependencies": {
+    "xml2json": "^0.11.0"
+  }
+}
