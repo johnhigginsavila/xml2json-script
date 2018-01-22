@@ -7,11 +7,11 @@ node {
    }
    stage('Giving permissions') {
      sh '''
-      chown 777 *
-      chmod +x *
+      sudo chown 777 *
+      sudo chmod +x *
      '''
    }
-   stage('test') {
+   stage('Run Script') {
       File script = new File('xmlparser.sh')
       script.getText().execute()
    }
